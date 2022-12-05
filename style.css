@@ -1,17 +1,17 @@
 h1 {
-    color: #111;
+    color: #555;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 300px;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -4px;
     line-height: 1;
     text-align: center;
 }
 
 p {
-    color: #685206;
+    color: #e509f9;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 50px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
@@ -25,28 +25,30 @@ textarea {
 }
 
 ul, ol {
-    margin: 20px;
-    padding: 0;
+    margin: 50px;
+    padding: 30px;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font: 200 20px/5.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(7, 237, 87);
 }
    
 li:last-child {
-    border: none;
+    border: 5mm ridge rgba(500, 50, 999, .6);;
 }
 
 form {
-    height:110px;
-    width:190px;
+    height:1px;
+    width:300px;
     margin:auto;
-    border:1px #CCC solid;
-    padding:10px;
+    border:1px rgb(4, 76, 246) solid;
+    padding:100px;
 }
     
 input, textarea {
     padding:5px;
-    margin:5px
+    margin:50px
 }
+
+body { background-image:url('https://media2.giphy.com/media/gJuTwM3yuQ8f3rE8KV/200w.webp?cid=ecf05e47isypfw4ef3459z5ww5cchkf0kcyelzkic8x0sf96&rid=200w.webp&ct=g'); transform: scale(2, 0.5); transform: skew(30deg, 20deg);}
